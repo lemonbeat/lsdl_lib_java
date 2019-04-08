@@ -8,9 +8,11 @@ import org.junit.Test;
 import javax.xml.bind.JAXBException;
 import java.io.File;
 import java.io.IOException;
+import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.Assert.*;
@@ -124,6 +126,46 @@ public class LsDLTest {
     @Test
     public void testValueDescription() {
         testLsdlServiceSampleParsing("value_description", com.lemonbeat.lsdl.value_description.Network.class);
+    }
+
+    @Test
+    public void testParseDeviceDescriptionReport() {
+        File file = new File("lsdl_xsd/samples/device_description/2xml_device_description_report_1.xml");
+        String xml = readFile(file);
+        try {
+            List<com.lemonbeat.lsdl.device_description.InfoType> infos = LsDL.parseDeviceDescriptionReport(xml);
+            assert infos.size() == 14;
+        } catch(JAXBException ex){
+            ex.printStackTrace();
+        }
+    }
+
+    @Test
+    public void testParseValueDescriptionReport(){
+        File file = new File("lsdl_xsd/samples/value_description/7xml_value_description_report_3.xml");
+        String xml = readFile(file);
+        try {
+            List<com.lemonbeat.lsdl.value_description.ValueDescriptionType> valueDescriptions = LsDL.parseValueDescriptionReport(xml);
+            assert valueDescriptions.size() == 2;
+        } catch(JAXBException ex){
+            ex.printStackTrace();
+        }
+    }
+
+    @Test
+    public void testParseValueReport(){
+        File file = new File("lsdl_xsd/samples/value/5xml_value_report_3.xml");
+        String xml = readFile(file);
+        try {
+            List<com.lemonbeat.lsdl.value.ValueReportType> valueReportItems = LsDL.parseValueReport(xml);
+            assert valueReportItems.size() == 2;
+            assert valueReportItems.get(0).getValueId() == 1;
+            assert valueReportItems.get(0).getNumber() == 55.0;
+            assert valueReportItems.get(1).getValueId() == 2;
+            assert valueReportItems.get(1).getString().equals("ON");
+        } catch(JAXBException ex){
+            ex.printStackTrace();
+        }
     }
 
     private void testLsdlServiceSampleParsing(String lsdlServiceName, Class networkNodeClass) {
