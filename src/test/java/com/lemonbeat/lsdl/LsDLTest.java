@@ -8,11 +8,9 @@ import org.junit.Test;
 import javax.xml.bind.JAXBException;
 import java.io.File;
 import java.io.IOException;
-import java.math.BigInteger;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.Assert.*;
@@ -166,6 +164,28 @@ public class LsDLTest {
         } catch(JAXBException ex){
             ex.printStackTrace();
         }
+    }
+
+    @Test
+    public void testCreateValueSet(){
+        ArrayList<com.lemonbeat.lsdl.value.ValueSetType> items = new ArrayList<>();
+
+        ValueSetType item_1 = new ValueSetType();
+        item_1.setValueId(1L);
+        item_1.setNumber(99.9);
+        ValueSetType item_2 = new ValueSetType();
+        item_2.setValueId(2L);
+        item_2.setString("Hello");
+
+        ValueSetType item_3 = new ValueSetType();
+        item_3.setValueId(3L);
+        item_3.setHexBinary("AA".getBytes());
+
+        items.add(item_1);
+        items.add(item_2);
+        items.add(item_3);
+        com.lemonbeat.lsdl.value.Network valueSet = LsDL.createValueSet(items);
+        assert valueSet.getDevice().get(0).getValueGetOrValueReportOrValueSet().size() == 3;
     }
 
     private void testLsdlServiceSampleParsing(String lsdlServiceName, Class networkNodeClass) {
