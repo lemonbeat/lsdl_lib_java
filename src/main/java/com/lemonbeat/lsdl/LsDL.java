@@ -4,6 +4,7 @@ import javax.xml.bind.*;
 import java.io.ByteArrayInputStream;
 import java.io.StringWriter;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -12,6 +13,8 @@ import java.util.List;
  * @version 1.13.0
  */
 public class LsDL {
+
+    private static HashMap<String, JAXBContext> jaxbContextInstances = new HashMap<>();
 
     /**
      * This method converts LsDL XML into an object.
@@ -28,9 +31,18 @@ public class LsDL {
      */
     public static Object parse(String xml, Class lsdlClass) throws JAXBException {
         ByteArrayInputStream xmlContentBytes = new ByteArrayInputStream(LsDL.autoRemoveBom(xml).getBytes());
-        JAXBContext context = JAXBContext.newInstance(lsdlClass);
+        JAXBContext context = getContext(lsdlClass);
         Unmarshaller unmarshaller = context.createUnmarshaller();
         return lsdlClass.cast(unmarshaller.unmarshal(xmlContentBytes));
+    }
+
+    private static JAXBContext getContext(Class lsdlClass) throws JAXBException {
+        JAXBContext context = jaxbContextInstances.get(lsdlClass.getCanonicalName());
+        if(context == null){
+            context = JAXBContext.newInstance(lsdlClass);
+            jaxbContextInstances.put(lsdlClass.getCanonicalName(), context);
+        }
+        return context;
     }
 
     /**
