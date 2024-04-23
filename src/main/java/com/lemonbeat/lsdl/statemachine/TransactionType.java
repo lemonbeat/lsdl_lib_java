@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:35 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.statemachine;
 
@@ -16,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java-Klasse für transactionType complex type.
+ * <p>Java class for transactionType complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="transactionType">
@@ -49,7 +42,7 @@ public class TransactionType {
     protected Long gotoStateId;
 
     /**
-     * Ruft den Wert der calculationId-Eigenschaft ab.
+     * Gets the value of the calculationId property.
      * 
      * @return
      *     possible object is
@@ -61,7 +54,7 @@ public class TransactionType {
     }
 
     /**
-     * Legt den Wert der calculationId-Eigenschaft fest.
+     * Sets the value of the calculationId property.
      * 
      * @param value
      *     allowed object is
@@ -73,7 +66,7 @@ public class TransactionType {
     }
 
     /**
-     * Ruft den Wert der actionId-Eigenschaft ab.
+     * Gets the value of the actionId property.
      * 
      * @return
      *     possible object is
@@ -85,7 +78,7 @@ public class TransactionType {
     }
 
     /**
-     * Legt den Wert der actionId-Eigenschaft fest.
+     * Sets the value of the actionId property.
      * 
      * @param value
      *     allowed object is
@@ -97,7 +90,7 @@ public class TransactionType {
     }
 
     /**
-     * Ruft den Wert der gotoStateId-Eigenschaft ab.
+     * Gets the value of the gotoStateId property.
      * 
      * @return
      *     possible object is
@@ -109,7 +102,7 @@ public class TransactionType {
     }
 
     /**
-     * Legt den Wert der gotoStateId-Eigenschaft fest.
+     * Sets the value of the gotoStateId property.
      * 
      * @param value
      *     allowed object is

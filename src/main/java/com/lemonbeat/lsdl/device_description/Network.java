@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:42 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.device_description;
 
@@ -23,9 +16,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java-Klasse für anonymous complex type.
+ * <p>Java class for anonymous complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType>
@@ -100,7 +93,7 @@ public class Network {
     }
 
     /**
-     * Ruft den Wert der version-Eigenschaft ab.
+     * Gets the value of the version property.
      * 
      */
     public long getVersion() {
@@ -108,7 +101,7 @@ public class Network {
     }
 
     /**
-     * Legt den Wert der version-Eigenschaft fest.
+     * Sets the value of the version property.
      * 
      */
     public void setVersion(long value) {
@@ -117,9 +110,9 @@ public class Network {
 
 
     /**
-     * <p>Java-Klasse für anonymous complex type.
+     * <p>Java class for anonymous complex type.
      * 
-     * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+     * <p>The following schema fragment specifies the expected content contained within this class.
      * 
      * <pre>
      * &lt;complexType>
@@ -147,9 +140,9 @@ public class Network {
     public static class Device {
 
         @XmlElementRefs({
+            @XmlElementRef(name = "device_description_get", namespace = "urn:device_descriptionxsd", type = JAXBElement.class, required = false),
             @XmlElementRef(name = "device_description_report", namespace = "urn:device_descriptionxsd", type = JAXBElement.class, required = false),
-            @XmlElementRef(name = "device_description_set", namespace = "urn:device_descriptionxsd", type = JAXBElement.class, required = false),
-            @XmlElementRef(name = "device_description_get", namespace = "urn:device_descriptionxsd", type = JAXBElement.class, required = false)
+            @XmlElementRef(name = "device_description_set", namespace = "urn:device_descriptionxsd", type = JAXBElement.class, required = false)
         })
         protected List<JAXBElement<?>> deviceDescriptionGetOrDeviceDescriptionReportOrDeviceDescriptionSet;
         @XmlAttribute(name = "version", required = true)
@@ -180,9 +173,9 @@ public class Network {
          * 
          * <p>
          * Objects of the following type(s) are allowed in the list
-         * {@link JAXBElement }{@code <}{@link DeviceDescriptionType }{@code >}
-         * {@link JAXBElement }{@code <}{@link DeviceDescriptionType }{@code >}
          * {@link JAXBElement }{@code <}{@link DeviceDescriptionGetType }{@code >}
+         * {@link JAXBElement }{@code <}{@link DeviceDescriptionType }{@code >}
+         * {@link JAXBElement }{@code <}{@link DeviceDescriptionType }{@code >}
          * 
          * 
          */
@@ -194,7 +187,7 @@ public class Network {
         }
 
         /**
-         * Ruft den Wert der version-Eigenschaft ab.
+         * Gets the value of the version property.
          * 
          */
         public long getVersion() {
@@ -202,7 +195,7 @@ public class Network {
         }
 
         /**
-         * Legt den Wert der version-Eigenschaft fest.
+         * Sets the value of the version property.
          * 
          */
         public void setVersion(long value) {
@@ -210,7 +203,7 @@ public class Network {
         }
 
         /**
-         * Ruft den Wert der deviceId-Eigenschaft ab.
+         * Gets the value of the deviceId property.
          * 
          * @return
          *     possible object is
@@ -222,7 +215,7 @@ public class Network {
         }
 
         /**
-         * Legt den Wert der deviceId-Eigenschaft fest.
+         * Sets the value of the deviceId property.
          * 
          * @param value
          *     allowed object is
@@ -234,7 +227,7 @@ public class Network {
         }
 
         /**
-         * Ruft den Wert der goToSleep-Eigenschaft ab.
+         * Gets the value of the goToSleep property.
          * 
          * @return
          *     possible object is
@@ -246,7 +239,7 @@ public class Network {
         }
 
         /**
-         * Legt den Wert der goToSleep-Eigenschaft fest.
+         * Sets the value of the goToSleep property.
          * 
          * @param value
          *     allowed object is

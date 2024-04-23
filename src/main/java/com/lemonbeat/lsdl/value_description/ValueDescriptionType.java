@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:38 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.value_description;
 
@@ -17,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java-Klasse für valueDescriptionType complex type.
+ * <p>Java class for valueDescriptionType complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="valueDescriptionType">
@@ -84,7 +77,7 @@ public class ValueDescriptionType {
     protected Long virtual;
 
     /**
-     * Ruft den Wert der numberFormat-Eigenschaft ab.
+     * Gets the value of the numberFormat property.
      * 
      * @return
      *     possible object is
@@ -96,7 +89,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Legt den Wert der numberFormat-Eigenschaft fest.
+     * Sets the value of the numberFormat property.
      * 
      * @param value
      *     allowed object is
@@ -108,7 +101,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Ruft den Wert der stringFormat-Eigenschaft ab.
+     * Gets the value of the stringFormat property.
      * 
      * @return
      *     possible object is
@@ -120,7 +113,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Legt den Wert der stringFormat-Eigenschaft fest.
+     * Sets the value of the stringFormat property.
      * 
      * @param value
      *     allowed object is
@@ -132,7 +125,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Ruft den Wert der hexBinaryFormat-Eigenschaft ab.
+     * Gets the value of the hexBinaryFormat property.
      * 
      * @return
      *     possible object is
@@ -144,7 +137,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Legt den Wert der hexBinaryFormat-Eigenschaft fest.
+     * Sets the value of the hexBinaryFormat property.
      * 
      * @param value
      *     allowed object is
@@ -156,7 +149,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Ruft den Wert der valueId-Eigenschaft ab.
+     * Gets the value of the valueId property.
      * 
      */
     public long getValueId() {
@@ -164,7 +157,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Legt den Wert der valueId-Eigenschaft fest.
+     * Sets the value of the valueId property.
      * 
      */
     public void setValueId(long value) {
@@ -172,7 +165,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Ruft den Wert der typeId-Eigenschaft ab.
+     * Gets the value of the typeId property.
      * 
      */
     public long getTypeId() {
@@ -180,7 +173,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Legt den Wert der typeId-Eigenschaft fest.
+     * Sets the value of the typeId property.
      * 
      */
     public void setTypeId(long value) {
@@ -188,7 +181,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Ruft den Wert der mode-Eigenschaft ab.
+     * Gets the value of the mode property.
      * 
      */
     public long getMode() {
@@ -196,7 +189,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Legt den Wert der mode-Eigenschaft fest.
+     * Sets the value of the mode property.
      * 
      */
     public void setMode(long value) {
@@ -204,7 +197,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Ruft den Wert der persistent-Eigenschaft ab.
+     * Gets the value of the persistent property.
      * 
      */
     public long getPersistent() {
@@ -212,7 +205,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Legt den Wert der persistent-Eigenschaft fest.
+     * Sets the value of the persistent property.
      * 
      */
     public void setPersistent(long value) {
@@ -220,7 +213,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Ruft den Wert der name-Eigenschaft ab.
+     * Gets the value of the name property.
      * 
      * @return
      *     possible object is
@@ -232,7 +225,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Legt den Wert der name-Eigenschaft fest.
+     * Sets the value of the name property.
      * 
      * @param value
      *     allowed object is
@@ -244,7 +237,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Ruft den Wert der minLogInterval-Eigenschaft ab.
+     * Gets the value of the minLogInterval property.
      * 
      * @return
      *     possible object is
@@ -256,7 +249,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Legt den Wert der minLogInterval-Eigenschaft fest.
+     * Sets the value of the minLogInterval property.
      * 
      * @param value
      *     allowed object is
@@ -268,7 +261,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Ruft den Wert der maxLogValues-Eigenschaft ab.
+     * Gets the value of the maxLogValues property.
      * 
      * @return
      *     possible object is
@@ -280,7 +273,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Legt den Wert der maxLogValues-Eigenschaft fest.
+     * Sets the value of the maxLogValues property.
      * 
      * @param value
      *     allowed object is
@@ -292,7 +285,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Ruft den Wert der virtual-Eigenschaft ab.
+     * Gets the value of the virtual property.
      * 
      * @return
      *     possible object is
@@ -304,7 +297,7 @@ public class ValueDescriptionType {
     }
 
     /**
-     * Legt den Wert der virtual-Eigenschaft fest.
+     * Sets the value of the virtual property.
      * 
      * @param value
      *     allowed object is

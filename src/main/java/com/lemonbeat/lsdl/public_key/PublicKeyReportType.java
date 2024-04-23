@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:34 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.public_key;
 
@@ -19,9 +12,9 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 
 /**
- * <p>Java-Klasse für publicKeyReportType complex type.
+ * <p>Java class for publicKeyReportType complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="publicKeyReportType">
@@ -50,7 +43,7 @@ public class PublicKeyReportType {
     protected Long keyType;
 
     /**
-     * Ruft den Wert der value-Eigenschaft ab.
+     * Gets the value of the value property.
      * 
      * @return
      *     possible object is
@@ -62,7 +55,7 @@ public class PublicKeyReportType {
     }
 
     /**
-     * Legt den Wert der value-Eigenschaft fest.
+     * Sets the value of the value property.
      * 
      * @param value
      *     allowed object is
@@ -74,7 +67,7 @@ public class PublicKeyReportType {
     }
 
     /**
-     * Ruft den Wert der keyType-Eigenschaft ab.
+     * Gets the value of the keyType property.
      * 
      * @return
      *     possible object is
@@ -86,7 +79,7 @@ public class PublicKeyReportType {
     }
 
     /**
-     * Legt den Wert der keyType-Eigenschaft fest.
+     * Sets the value of the keyType property.
      * 
      * @param value
      *     allowed object is

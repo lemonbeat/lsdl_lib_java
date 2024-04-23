@@ -8,26 +8,17 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * This class provides some convenience methods for writing and parsing of common LsDL messages.
- *
- * @version 1.13.0
+ * Provides convenience methods for writing and parsing common LsDL messages.
  */
 public class LsDL {
 
     private static HashMap<String, JAXBContext> jaxbContextInstances = new HashMap<>();
 
     /**
-     * This method converts LsDL XML into an object.
-     *
-     * Examples:
-     *
-     * LsDL.parse(device_description_report_xml, com.lemonbeat.lsdl.device_description.Network.class);
-     * LsDL.parse(value_report_xml, com.lemonbeat.lsdl.value.Network.class);
-     *
+     * Converts LsDL XML into an object.
      * @param xml String with the raw LsDL.
      * @param lsdlClass Class that indicates from which XSD the xml is.
-     * @return Casted Lsdl object
-     * @throws JAXBException
+     * @return Lsdl object
      */
     public static Object parse(String xml, Class lsdlClass) throws JAXBException {
         ByteArrayInputStream xmlContentBytes = new ByteArrayInputStream(LsDL.autoRemoveBom(xml).getBytes());

@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:39 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.calculation;
 
@@ -17,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java-Klasse für calculationType complex type.
+ * <p>Java class for calculationType complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="calculationType">
@@ -57,7 +50,7 @@ public class CalculationType {
     protected long methodId;
 
     /**
-     * Ruft den Wert der left-Eigenschaft ab.
+     * Gets the value of the left property.
      * 
      * @return
      *     possible object is
@@ -69,7 +62,7 @@ public class CalculationType {
     }
 
     /**
-     * Legt den Wert der left-Eigenschaft fest.
+     * Sets the value of the left property.
      * 
      * @param value
      *     allowed object is
@@ -81,7 +74,7 @@ public class CalculationType {
     }
 
     /**
-     * Ruft den Wert der right-Eigenschaft ab.
+     * Gets the value of the right property.
      * 
      * @return
      *     possible object is
@@ -93,7 +86,7 @@ public class CalculationType {
     }
 
     /**
-     * Legt den Wert der right-Eigenschaft fest.
+     * Sets the value of the right property.
      * 
      * @param value
      *     allowed object is
@@ -105,7 +98,7 @@ public class CalculationType {
     }
 
     /**
-     * Ruft den Wert der calculationId-Eigenschaft ab.
+     * Gets the value of the calculationId property.
      * 
      */
     public long getCalculationId() {
@@ -113,7 +106,7 @@ public class CalculationType {
     }
 
     /**
-     * Legt den Wert der calculationId-Eigenschaft fest.
+     * Sets the value of the calculationId property.
      * 
      */
     public void setCalculationId(long value) {
@@ -121,7 +114,7 @@ public class CalculationType {
     }
 
     /**
-     * Ruft den Wert der methodId-Eigenschaft ab.
+     * Gets the value of the methodId property.
      * 
      */
     public long getMethodId() {
@@ -129,7 +122,7 @@ public class CalculationType {
     }
 
     /**
-     * Legt den Wert der methodId-Eigenschaft fest.
+     * Sets the value of the methodId property.
      * 
      */
     public void setMethodId(long value) {

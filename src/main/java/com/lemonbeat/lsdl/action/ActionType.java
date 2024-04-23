@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:31 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.action;
 
@@ -21,9 +14,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java-Klasse für actionType complex type.
+ * <p>Java class for actionType complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="actionType">
@@ -52,12 +45,12 @@ import javax.xml.bind.annotation.XmlType;
 public class ActionType {
 
     @XmlElementRefs({
-        @XmlElementRef(name = "timer_stop", namespace = "urn:actionxsd", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "set", namespace = "urn:actionxsd", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "timer_start", namespace = "urn:actionxsd", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "report", namespace = "urn:actionxsd", type = JAXBElement.class, required = false),
         @XmlElementRef(name = "get", namespace = "urn:actionxsd", type = JAXBElement.class, required = false),
-        @XmlElementRef(name = "invoke", namespace = "urn:actionxsd", type = JAXBElement.class, required = false)
+        @XmlElementRef(name = "report", namespace = "urn:actionxsd", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "invoke", namespace = "urn:actionxsd", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "timer_start", namespace = "urn:actionxsd", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "timer_stop", namespace = "urn:actionxsd", type = JAXBElement.class, required = false),
+        @XmlElementRef(name = "set", namespace = "urn:actionxsd", type = JAXBElement.class, required = false)
     })
     protected List<JAXBElement<?>> getOrSetOrReport;
     @XmlAttribute(name = "action_id", required = true)
@@ -82,11 +75,11 @@ public class ActionType {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
+     * {@link JAXBElement }{@code <}{@link TimerType }{@code >}
+     * {@link JAXBElement }{@code <}{@link TimerType }{@code >}
      * {@link JAXBElement }{@code <}{@link SetType }{@code >}
-     * {@link JAXBElement }{@code <}{@link TimerType }{@code >}
-     * {@link JAXBElement }{@code <}{@link ReportType }{@code >}
-     * {@link JAXBElement }{@code <}{@link TimerType }{@code >}
      * {@link JAXBElement }{@code <}{@link GetType }{@code >}
+     * {@link JAXBElement }{@code <}{@link ReportType }{@code >}
      * {@link JAXBElement }{@code <}{@link InvokeType }{@code >}
      * 
      * 
@@ -99,7 +92,7 @@ public class ActionType {
     }
 
     /**
-     * Ruft den Wert der actionId-Eigenschaft ab.
+     * Gets the value of the actionId property.
      * 
      */
     public long getActionId() {
@@ -107,7 +100,7 @@ public class ActionType {
     }
 
     /**
-     * Legt den Wert der actionId-Eigenschaft fest.
+     * Sets the value of the actionId property.
      * 
      */
     public void setActionId(long value) {

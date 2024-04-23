@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:47 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.mac;
 
@@ -22,9 +15,9 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 
 /**
- * <p>Java-Klasse für anonymous complex type.
+ * <p>Java class for anonymous complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType>
@@ -91,7 +84,7 @@ public class Mac {
     protected long contentType;
 
     /**
-     * Ruft den Wert der macOptionAckRequest-Eigenschaft ab.
+     * Gets the value of the macOptionAckRequest property.
      * 
      * @return
      *     possible object is
@@ -103,7 +96,7 @@ public class Mac {
     }
 
     /**
-     * Legt den Wert der macOptionAckRequest-Eigenschaft fest.
+     * Sets the value of the macOptionAckRequest property.
      * 
      * @param value
      *     allowed object is
@@ -115,7 +108,7 @@ public class Mac {
     }
 
     /**
-     * Ruft den Wert der macOptionAck-Eigenschaft ab.
+     * Gets the value of the macOptionAck property.
      * 
      * @return
      *     possible object is
@@ -127,7 +120,7 @@ public class Mac {
     }
 
     /**
-     * Legt den Wert der macOptionAck-Eigenschaft fest.
+     * Sets the value of the macOptionAck property.
      * 
      * @param value
      *     allowed object is
@@ -139,7 +132,7 @@ public class Mac {
     }
 
     /**
-     * Ruft den Wert der macOptionFragment-Eigenschaft ab.
+     * Gets the value of the macOptionFragment property.
      * 
      * @return
      *     possible object is
@@ -151,7 +144,7 @@ public class Mac {
     }
 
     /**
-     * Legt den Wert der macOptionFragment-Eigenschaft fest.
+     * Sets the value of the macOptionFragment property.
      * 
      * @param value
      *     allowed object is
@@ -192,7 +185,7 @@ public class Mac {
     }
 
     /**
-     * Ruft den Wert der macOptionWakeOnRadio-Eigenschaft ab.
+     * Gets the value of the macOptionWakeOnRadio property.
      * 
      * @return
      *     possible object is
@@ -204,7 +197,7 @@ public class Mac {
     }
 
     /**
-     * Legt den Wert der macOptionWakeOnRadio-Eigenschaft fest.
+     * Sets the value of the macOptionWakeOnRadio property.
      * 
      * @param value
      *     allowed object is
@@ -216,7 +209,7 @@ public class Mac {
     }
 
     /**
-     * Ruft den Wert der macLayerVersion-Eigenschaft ab.
+     * Gets the value of the macLayerVersion property.
      * 
      */
     public long getMacLayerVersion() {
@@ -224,7 +217,7 @@ public class Mac {
     }
 
     /**
-     * Legt den Wert der macLayerVersion-Eigenschaft fest.
+     * Sets the value of the macLayerVersion property.
      * 
      */
     public void setMacLayerVersion(long value) {
@@ -232,7 +225,7 @@ public class Mac {
     }
 
     /**
-     * Ruft den Wert der frameNonce-Eigenschaft ab.
+     * Gets the value of the frameNonce property.
      * 
      * @return
      *     possible object is
@@ -244,7 +237,7 @@ public class Mac {
     }
 
     /**
-     * Legt den Wert der frameNonce-Eigenschaft fest.
+     * Sets the value of the frameNonce property.
      * 
      * @param value
      *     allowed object is
@@ -256,7 +249,7 @@ public class Mac {
     }
 
     /**
-     * Ruft den Wert der macSourceAddress-Eigenschaft ab.
+     * Gets the value of the macSourceAddress property.
      * 
      * @return
      *     possible object is
@@ -268,7 +261,7 @@ public class Mac {
     }
 
     /**
-     * Legt den Wert der macSourceAddress-Eigenschaft fest.
+     * Sets the value of the macSourceAddress property.
      * 
      * @param value
      *     allowed object is
@@ -280,7 +273,7 @@ public class Mac {
     }
 
     /**
-     * Ruft den Wert der frameIntegrityCode-Eigenschaft ab.
+     * Gets the value of the frameIntegrityCode property.
      * 
      * @return
      *     possible object is
@@ -292,7 +285,7 @@ public class Mac {
     }
 
     /**
-     * Legt den Wert der frameIntegrityCode-Eigenschaft fest.
+     * Sets the value of the frameIntegrityCode property.
      * 
      * @param value
      *     allowed object is
@@ -304,7 +297,7 @@ public class Mac {
     }
 
     /**
-     * Ruft den Wert der macDestinationAdress-Eigenschaft ab.
+     * Gets the value of the macDestinationAdress property.
      * 
      * @return
      *     possible object is
@@ -316,7 +309,7 @@ public class Mac {
     }
 
     /**
-     * Legt den Wert der macDestinationAdress-Eigenschaft fest.
+     * Sets the value of the macDestinationAdress property.
      * 
      * @param value
      *     allowed object is
@@ -328,7 +321,7 @@ public class Mac {
     }
 
     /**
-     * Ruft den Wert der contentType-Eigenschaft ab.
+     * Gets the value of the contentType property.
      * 
      */
     public long getContentType() {
@@ -336,7 +329,7 @@ public class Mac {
     }
 
     /**
-     * Legt den Wert der contentType-Eigenschaft fest.
+     * Sets the value of the contentType property.
      * 
      */
     public void setContentType(long value) {

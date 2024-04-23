@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:47 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.mac;
 
@@ -16,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java-Klasse für mac_option_wake_on_radioType complex type.
+ * <p>Java class for mac_option_wake_on_radioType complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="mac_option_wake_on_radioType">
@@ -53,7 +46,7 @@ public class MacOptionWakeOnRadioType {
     protected long channel;
 
     /**
-     * Ruft den Wert der timestamp-Eigenschaft ab.
+     * Gets the value of the timestamp property.
      * 
      */
     public long getTimestamp() {
@@ -61,7 +54,7 @@ public class MacOptionWakeOnRadioType {
     }
 
     /**
-     * Legt den Wert der timestamp-Eigenschaft fest.
+     * Sets the value of the timestamp property.
      * 
      */
     public void setTimestamp(long value) {
@@ -69,7 +62,7 @@ public class MacOptionWakeOnRadioType {
     }
 
     /**
-     * Ruft den Wert der fraction-Eigenschaft ab.
+     * Gets the value of the fraction property.
      * 
      */
     public long getFraction() {
@@ -77,7 +70,7 @@ public class MacOptionWakeOnRadioType {
     }
 
     /**
-     * Legt den Wert der fraction-Eigenschaft fest.
+     * Sets the value of the fraction property.
      * 
      */
     public void setFraction(long value) {
@@ -85,7 +78,7 @@ public class MacOptionWakeOnRadioType {
     }
 
     /**
-     * Ruft den Wert der interval-Eigenschaft ab.
+     * Gets the value of the interval property.
      * 
      */
     public long getInterval() {
@@ -93,7 +86,7 @@ public class MacOptionWakeOnRadioType {
     }
 
     /**
-     * Legt den Wert der interval-Eigenschaft fest.
+     * Sets the value of the interval property.
      * 
      */
     public void setInterval(long value) {
@@ -101,7 +94,7 @@ public class MacOptionWakeOnRadioType {
     }
 
     /**
-     * Ruft den Wert der channel-Eigenschaft ab.
+     * Gets the value of the channel property.
      * 
      */
     public long getChannel() {
@@ -109,7 +102,7 @@ public class MacOptionWakeOnRadioType {
     }
 
     /**
-     * Legt den Wert der channel-Eigenschaft fest.
+     * Sets the value of the channel property.
      * 
      */
     public void setChannel(long value) {

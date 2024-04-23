@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:33 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.phy;
 
@@ -19,9 +12,9 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 
 /**
- * <p>Java-Klasse für anonymous complex type.
+ * <p>Java class for anonymous complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType>
@@ -61,7 +54,7 @@ public class Phy {
     protected Long fowardErrorCorrectionLength;
 
     /**
-     * Ruft den Wert der payload-Eigenschaft ab.
+     * Gets the value of the payload property.
      * 
      * @return
      *     possible object is
@@ -73,7 +66,7 @@ public class Phy {
     }
 
     /**
-     * Legt den Wert der payload-Eigenschaft fest.
+     * Sets the value of the payload property.
      * 
      * @param value
      *     allowed object is
@@ -85,7 +78,7 @@ public class Phy {
     }
 
     /**
-     * Ruft den Wert der phyLayerVersion-Eigenschaft ab.
+     * Gets the value of the phyLayerVersion property.
      * 
      */
     public long getPhyLayerVersion() {
@@ -93,7 +86,7 @@ public class Phy {
     }
 
     /**
-     * Legt den Wert der phyLayerVersion-Eigenschaft fest.
+     * Sets the value of the phyLayerVersion property.
      * 
      */
     public void setPhyLayerVersion(long value) {
@@ -101,7 +94,7 @@ public class Phy {
     }
 
     /**
-     * Ruft den Wert der security-Eigenschaft ab.
+     * Gets the value of the security property.
      * 
      */
     public long getSecurity() {
@@ -109,7 +102,7 @@ public class Phy {
     }
 
     /**
-     * Legt den Wert der security-Eigenschaft fest.
+     * Sets the value of the security property.
      * 
      */
     public void setSecurity(long value) {
@@ -117,7 +110,7 @@ public class Phy {
     }
 
     /**
-     * Ruft den Wert der fowardErrorCorrection-Eigenschaft ab.
+     * Gets the value of the fowardErrorCorrection property.
      * 
      */
     public long getFowardErrorCorrection() {
@@ -125,7 +118,7 @@ public class Phy {
     }
 
     /**
-     * Legt den Wert der fowardErrorCorrection-Eigenschaft fest.
+     * Sets the value of the fowardErrorCorrection property.
      * 
      */
     public void setFowardErrorCorrection(long value) {
@@ -133,7 +126,7 @@ public class Phy {
     }
 
     /**
-     * Ruft den Wert der fowardErrorCorrectionLength-Eigenschaft ab.
+     * Gets the value of the fowardErrorCorrectionLength property.
      * 
      * @return
      *     possible object is
@@ -145,7 +138,7 @@ public class Phy {
     }
 
     /**
-     * Legt den Wert der fowardErrorCorrectionLength-Eigenschaft fest.
+     * Sets the value of the fowardErrorCorrectionLength property.
      * 
      * @param value
      *     allowed object is

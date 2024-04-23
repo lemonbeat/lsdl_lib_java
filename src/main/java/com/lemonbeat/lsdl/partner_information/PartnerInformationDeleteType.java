@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:32 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.partner_information;
 
@@ -16,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java-Klasse für partnerInformationDeleteType complex type.
+ * <p>Java class for partnerInformationDeleteType complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="partnerInformationDeleteType">
@@ -41,7 +34,7 @@ public class PartnerInformationDeleteType {
     protected Long partnerId;
 
     /**
-     * Ruft den Wert der partnerId-Eigenschaft ab.
+     * Gets the value of the partnerId property.
      * 
      * @return
      *     possible object is
@@ -53,7 +46,7 @@ public class PartnerInformationDeleteType {
     }
 
     /**
-     * Legt den Wert der partnerId-Eigenschaft fest.
+     * Sets the value of the partnerId property.
      * 
      * @param value
      *     allowed object is

@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:34 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.service_description;
 
@@ -20,9 +13,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java-Klasse für anonymous complex type.
+ * <p>Java class for anonymous complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType>
@@ -96,7 +89,7 @@ public class Network {
     }
 
     /**
-     * Ruft den Wert der version-Eigenschaft ab.
+     * Gets the value of the version property.
      * 
      */
     public long getVersion() {
@@ -104,7 +97,7 @@ public class Network {
     }
 
     /**
-     * Legt den Wert der version-Eigenschaft fest.
+     * Sets the value of the version property.
      * 
      */
     public void setVersion(long value) {
@@ -113,9 +106,9 @@ public class Network {
 
 
     /**
-     * <p>Java-Klasse für anonymous complex type.
+     * <p>Java class for anonymous complex type.
      * 
-     * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+     * <p>The following schema fragment specifies the expected content contained within this class.
      * 
      * <pre>
      * &lt;complexType>
@@ -157,7 +150,7 @@ public class Network {
         protected Long goToSleep;
 
         /**
-         * Ruft den Wert der serviceDescriptionGet-Eigenschaft ab.
+         * Gets the value of the serviceDescriptionGet property.
          * 
          * @return
          *     possible object is
@@ -169,7 +162,7 @@ public class Network {
         }
 
         /**
-         * Legt den Wert der serviceDescriptionGet-Eigenschaft fest.
+         * Sets the value of the serviceDescriptionGet property.
          * 
          * @param value
          *     allowed object is
@@ -181,7 +174,7 @@ public class Network {
         }
 
         /**
-         * Ruft den Wert der serviceDescriptionReport-Eigenschaft ab.
+         * Gets the value of the serviceDescriptionReport property.
          * 
          * @return
          *     possible object is
@@ -193,7 +186,7 @@ public class Network {
         }
 
         /**
-         * Legt den Wert der serviceDescriptionReport-Eigenschaft fest.
+         * Sets the value of the serviceDescriptionReport property.
          * 
          * @param value
          *     allowed object is
@@ -205,7 +198,7 @@ public class Network {
         }
 
         /**
-         * Ruft den Wert der version-Eigenschaft ab.
+         * Gets the value of the version property.
          * 
          */
         public long getVersion() {
@@ -213,7 +206,7 @@ public class Network {
         }
 
         /**
-         * Legt den Wert der version-Eigenschaft fest.
+         * Sets the value of the version property.
          * 
          */
         public void setVersion(long value) {
@@ -221,7 +214,7 @@ public class Network {
         }
 
         /**
-         * Ruft den Wert der deviceId-Eigenschaft ab.
+         * Gets the value of the deviceId property.
          * 
          * @return
          *     possible object is
@@ -233,7 +226,7 @@ public class Network {
         }
 
         /**
-         * Legt den Wert der deviceId-Eigenschaft fest.
+         * Sets the value of the deviceId property.
          * 
          * @param value
          *     allowed object is
@@ -245,7 +238,7 @@ public class Network {
         }
 
         /**
-         * Ruft den Wert der goToSleep-Eigenschaft ab.
+         * Gets the value of the goToSleep property.
          * 
          * @return
          *     possible object is
@@ -257,7 +250,7 @@ public class Network {
         }
 
         /**
-         * Legt den Wert der goToSleep-Eigenschaft fest.
+         * Sets the value of the goToSleep property.
          * 
          * @param value
          *     allowed object is

@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:36 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.status;
 
@@ -18,9 +11,9 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 
 /**
- * <p>Java-Klasse für statusReportType complex type.
+ * <p>Java class for statusReportType complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="statusReportType">
@@ -56,7 +49,7 @@ public class StatusReportType {
     protected byte[] data;
 
     /**
-     * Ruft den Wert der typeId-Eigenschaft ab.
+     * Gets the value of the typeId property.
      * 
      */
     public long getTypeId() {
@@ -64,7 +57,7 @@ public class StatusReportType {
     }
 
     /**
-     * Legt den Wert der typeId-Eigenschaft fest.
+     * Sets the value of the typeId property.
      * 
      */
     public void setTypeId(long value) {
@@ -72,7 +65,7 @@ public class StatusReportType {
     }
 
     /**
-     * Ruft den Wert der code-Eigenschaft ab.
+     * Gets the value of the code property.
      * 
      */
     public long getCode() {
@@ -80,7 +73,7 @@ public class StatusReportType {
     }
 
     /**
-     * Legt den Wert der code-Eigenschaft fest.
+     * Sets the value of the code property.
      * 
      */
     public void setCode(long value) {
@@ -88,7 +81,7 @@ public class StatusReportType {
     }
 
     /**
-     * Ruft den Wert der level-Eigenschaft ab.
+     * Gets the value of the level property.
      * 
      */
     public long getLevel() {
@@ -96,7 +89,7 @@ public class StatusReportType {
     }
 
     /**
-     * Legt den Wert der level-Eigenschaft fest.
+     * Sets the value of the level property.
      * 
      */
     public void setLevel(long value) {
@@ -104,7 +97,7 @@ public class StatusReportType {
     }
 
     /**
-     * Ruft den Wert der data-Eigenschaft ab.
+     * Gets the value of the data property.
      * 
      * @return
      *     possible object is
@@ -116,7 +109,7 @@ public class StatusReportType {
     }
 
     /**
-     * Legt den Wert der data-Eigenschaft fest.
+     * Sets the value of the data property.
      * 
      * @param value
      *     allowed object is

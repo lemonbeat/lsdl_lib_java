@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:32 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.partner_information;
 
@@ -19,9 +12,9 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 
 /**
- * <p>Java-Klasse für infoType complex type.
+ * <p>Java class for infoType complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="infoType">
@@ -56,7 +49,7 @@ public class InfoType {
     protected byte[] hex;
 
     /**
-     * Ruft den Wert der typeId-Eigenschaft ab.
+     * Gets the value of the typeId property.
      * 
      */
     public long getTypeId() {
@@ -64,7 +57,7 @@ public class InfoType {
     }
 
     /**
-     * Legt den Wert der typeId-Eigenschaft fest.
+     * Sets the value of the typeId property.
      * 
      */
     public void setTypeId(long value) {
@@ -72,7 +65,7 @@ public class InfoType {
     }
 
     /**
-     * Ruft den Wert der number-Eigenschaft ab.
+     * Gets the value of the number property.
      * 
      * @return
      *     possible object is
@@ -84,7 +77,7 @@ public class InfoType {
     }
 
     /**
-     * Legt den Wert der number-Eigenschaft fest.
+     * Sets the value of the number property.
      * 
      * @param value
      *     allowed object is
@@ -96,7 +89,7 @@ public class InfoType {
     }
 
     /**
-     * Ruft den Wert der string-Eigenschaft ab.
+     * Gets the value of the string property.
      * 
      * @return
      *     possible object is
@@ -108,7 +101,7 @@ public class InfoType {
     }
 
     /**
-     * Legt den Wert der string-Eigenschaft fest.
+     * Sets the value of the string property.
      * 
      * @param value
      *     allowed object is
@@ -120,7 +113,7 @@ public class InfoType {
     }
 
     /**
-     * Ruft den Wert der hex-Eigenschaft ab.
+     * Gets the value of the hex property.
      * 
      * @return
      *     possible object is
@@ -132,7 +125,7 @@ public class InfoType {
     }
 
     /**
-     * Legt den Wert der hex-Eigenschaft fest.
+     * Sets the value of the hex property.
      * 
      * @param value
      *     allowed object is
