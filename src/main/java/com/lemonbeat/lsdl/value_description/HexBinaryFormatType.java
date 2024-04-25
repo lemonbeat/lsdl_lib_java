@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:38 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.value_description;
 
@@ -16,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java-Klasse für hexBinaryFormatType complex type.
+ * <p>Java class for hexBinaryFormatType complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="hexBinaryFormatType">
@@ -41,7 +34,7 @@ public class HexBinaryFormatType {
     protected long maxLength;
 
     /**
-     * Ruft den Wert der maxLength-Eigenschaft ab.
+     * Gets the value of the maxLength property.
      * 
      */
     public long getMaxLength() {
@@ -49,7 +42,7 @@ public class HexBinaryFormatType {
     }
 
     /**
-     * Legt den Wert der maxLength-Eigenschaft fest.
+     * Sets the value of the maxLength property.
      * 
      */
     public void setMaxLength(long value) {

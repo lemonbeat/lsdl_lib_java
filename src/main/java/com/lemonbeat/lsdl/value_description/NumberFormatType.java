@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:38 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.value_description;
 
@@ -15,9 +8,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java-Klasse für numberFormatType complex type.
+ * <p>Java class for numberFormatType complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="numberFormatType">
@@ -48,7 +41,7 @@ public class NumberFormatType {
     protected double step;
 
     /**
-     * Ruft den Wert der unit-Eigenschaft ab.
+     * Gets the value of the unit property.
      * 
      * @return
      *     possible object is
@@ -60,7 +53,7 @@ public class NumberFormatType {
     }
 
     /**
-     * Legt den Wert der unit-Eigenschaft fest.
+     * Sets the value of the unit property.
      * 
      * @param value
      *     allowed object is
@@ -72,7 +65,7 @@ public class NumberFormatType {
     }
 
     /**
-     * Ruft den Wert der min-Eigenschaft ab.
+     * Gets the value of the min property.
      * 
      */
     public double getMin() {
@@ -80,7 +73,7 @@ public class NumberFormatType {
     }
 
     /**
-     * Legt den Wert der min-Eigenschaft fest.
+     * Sets the value of the min property.
      * 
      */
     public void setMin(double value) {
@@ -88,7 +81,7 @@ public class NumberFormatType {
     }
 
     /**
-     * Ruft den Wert der max-Eigenschaft ab.
+     * Gets the value of the max property.
      * 
      */
     public double getMax() {
@@ -96,7 +89,7 @@ public class NumberFormatType {
     }
 
     /**
-     * Legt den Wert der max-Eigenschaft fest.
+     * Sets the value of the max property.
      * 
      */
     public void setMax(double value) {
@@ -104,7 +97,7 @@ public class NumberFormatType {
     }
 
     /**
-     * Ruft den Wert der step-Eigenschaft ab.
+     * Gets the value of the step property.
      * 
      */
     public double getStep() {
@@ -112,7 +105,7 @@ public class NumberFormatType {
     }
 
     /**
-     * Legt den Wert der step-Eigenschaft fest.
+     * Sets the value of the step property.
      * 
      */
     public void setStep(double value) {

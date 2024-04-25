@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:37 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.value;
 
@@ -16,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java-Klasse für valueGetType complex type.
+ * <p>Java class for valueGetType complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="valueGetType">
@@ -41,7 +34,7 @@ public class ValueGetType {
     protected Long valueId;
 
     /**
-     * Ruft den Wert der valueId-Eigenschaft ab.
+     * Gets the value of the valueId property.
      * 
      * @return
      *     possible object is
@@ -53,7 +46,7 @@ public class ValueGetType {
     }
 
     /**
-     * Legt den Wert der valueId-Eigenschaft fest.
+     * Sets the value of the valueId property.
      * 
      * @param value
      *     allowed object is

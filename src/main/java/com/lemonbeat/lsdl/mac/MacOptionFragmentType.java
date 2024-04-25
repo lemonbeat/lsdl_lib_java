@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:47 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.mac;
 
@@ -16,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java-Klasse für mac_option_fragmentType complex type.
+ * <p>Java class for mac_option_fragmentType complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="mac_option_fragmentType">
@@ -45,7 +38,7 @@ public class MacOptionFragmentType {
     protected long offset;
 
     /**
-     * Ruft den Wert der isLast-Eigenschaft ab.
+     * Gets the value of the isLast property.
      * 
      */
     public long getIsLast() {
@@ -53,7 +46,7 @@ public class MacOptionFragmentType {
     }
 
     /**
-     * Legt den Wert der isLast-Eigenschaft fest.
+     * Sets the value of the isLast property.
      * 
      */
     public void setIsLast(long value) {
@@ -61,7 +54,7 @@ public class MacOptionFragmentType {
     }
 
     /**
-     * Ruft den Wert der offset-Eigenschaft ab.
+     * Gets the value of the offset property.
      * 
      */
     public long getOffset() {
@@ -69,7 +62,7 @@ public class MacOptionFragmentType {
     }
 
     /**
-     * Legt den Wert der offset-Eigenschaft fest.
+     * Sets the value of the offset property.
      * 
      */
     public void setOffset(long value) {

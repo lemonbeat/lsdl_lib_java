@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:31 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.action;
 
@@ -16,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java-Klasse für getType complex type.
+ * <p>Java class for getType complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="getType">
@@ -49,7 +42,7 @@ public class GetType {
     protected Long transportMode;
 
     /**
-     * Ruft den Wert der valueId-Eigenschaft ab.
+     * Gets the value of the valueId property.
      * 
      */
     public long getValueId() {
@@ -57,7 +50,7 @@ public class GetType {
     }
 
     /**
-     * Legt den Wert der valueId-Eigenschaft fest.
+     * Sets the value of the valueId property.
      * 
      */
     public void setValueId(long value) {
@@ -65,7 +58,7 @@ public class GetType {
     }
 
     /**
-     * Ruft den Wert der partnerId-Eigenschaft ab.
+     * Gets the value of the partnerId property.
      * 
      * @return
      *     possible object is
@@ -77,7 +70,7 @@ public class GetType {
     }
 
     /**
-     * Legt den Wert der partnerId-Eigenschaft fest.
+     * Sets the value of the partnerId property.
      * 
      * @param value
      *     allowed object is
@@ -89,7 +82,7 @@ public class GetType {
     }
 
     /**
-     * Ruft den Wert der transportMode-Eigenschaft ab.
+     * Gets the value of the transportMode property.
      * 
      * @return
      *     possible object is
@@ -101,7 +94,7 @@ public class GetType {
     }
 
     /**
-     * Legt den Wert der transportMode-Eigenschaft fest.
+     * Sets the value of the transportMode property.
      * 
      * @param value
      *     allowed object is

@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:39 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.calculation;
 
@@ -18,9 +11,9 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 
 /**
- * <p>Java-Klasse für calSubType complex type.
+ * <p>Java class for calSubType complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="calSubType">
@@ -78,7 +71,7 @@ public class CalSubType {
     protected byte[] constantHexBinary;
 
     /**
-     * Ruft den Wert der valueId-Eigenschaft ab.
+     * Gets the value of the valueId property.
      * 
      * @return
      *     possible object is
@@ -90,7 +83,7 @@ public class CalSubType {
     }
 
     /**
-     * Legt den Wert der valueId-Eigenschaft fest.
+     * Sets the value of the valueId property.
      * 
      * @param value
      *     allowed object is
@@ -102,7 +95,7 @@ public class CalSubType {
     }
 
     /**
-     * Ruft den Wert der calculationId-Eigenschaft ab.
+     * Gets the value of the calculationId property.
      * 
      * @return
      *     possible object is
@@ -114,7 +107,7 @@ public class CalSubType {
     }
 
     /**
-     * Legt den Wert der calculationId-Eigenschaft fest.
+     * Sets the value of the calculationId property.
      * 
      * @param value
      *     allowed object is
@@ -126,7 +119,7 @@ public class CalSubType {
     }
 
     /**
-     * Ruft den Wert der partnerId-Eigenschaft ab.
+     * Gets the value of the partnerId property.
      * 
      * @return
      *     possible object is
@@ -138,7 +131,7 @@ public class CalSubType {
     }
 
     /**
-     * Legt den Wert der partnerId-Eigenschaft fest.
+     * Sets the value of the partnerId property.
      * 
      * @param value
      *     allowed object is
@@ -150,7 +143,7 @@ public class CalSubType {
     }
 
     /**
-     * Ruft den Wert der statemachineId-Eigenschaft ab.
+     * Gets the value of the statemachineId property.
      * 
      * @return
      *     possible object is
@@ -162,7 +155,7 @@ public class CalSubType {
     }
 
     /**
-     * Legt den Wert der statemachineId-Eigenschaft fest.
+     * Sets the value of the statemachineId property.
      * 
      * @param value
      *     allowed object is
@@ -174,7 +167,7 @@ public class CalSubType {
     }
 
     /**
-     * Ruft den Wert der timerId-Eigenschaft ab.
+     * Gets the value of the timerId property.
      * 
      * @return
      *     possible object is
@@ -186,7 +179,7 @@ public class CalSubType {
     }
 
     /**
-     * Legt den Wert der timerId-Eigenschaft fest.
+     * Sets the value of the timerId property.
      * 
      * @param value
      *     allowed object is
@@ -198,7 +191,7 @@ public class CalSubType {
     }
 
     /**
-     * Ruft den Wert der calendarId-Eigenschaft ab.
+     * Gets the value of the calendarId property.
      * 
      * @return
      *     possible object is
@@ -210,7 +203,7 @@ public class CalSubType {
     }
 
     /**
-     * Legt den Wert der calendarId-Eigenschaft fest.
+     * Sets the value of the calendarId property.
      * 
      * @param value
      *     allowed object is
@@ -222,7 +215,7 @@ public class CalSubType {
     }
 
     /**
-     * Ruft den Wert der isUpdated-Eigenschaft ab.
+     * Gets the value of the isUpdated property.
      * 
      * @return
      *     possible object is
@@ -234,7 +227,7 @@ public class CalSubType {
     }
 
     /**
-     * Legt den Wert der isUpdated-Eigenschaft fest.
+     * Sets the value of the isUpdated property.
      * 
      * @param value
      *     allowed object is
@@ -246,7 +239,7 @@ public class CalSubType {
     }
 
     /**
-     * Ruft den Wert der constantNumber-Eigenschaft ab.
+     * Gets the value of the constantNumber property.
      * 
      * @return
      *     possible object is
@@ -258,7 +251,7 @@ public class CalSubType {
     }
 
     /**
-     * Legt den Wert der constantNumber-Eigenschaft fest.
+     * Sets the value of the constantNumber property.
      * 
      * @param value
      *     allowed object is
@@ -270,7 +263,7 @@ public class CalSubType {
     }
 
     /**
-     * Ruft den Wert der constantString-Eigenschaft ab.
+     * Gets the value of the constantString property.
      * 
      * @return
      *     possible object is
@@ -282,7 +275,7 @@ public class CalSubType {
     }
 
     /**
-     * Legt den Wert der constantString-Eigenschaft fest.
+     * Sets the value of the constantString property.
      * 
      * @param value
      *     allowed object is
@@ -294,7 +287,7 @@ public class CalSubType {
     }
 
     /**
-     * Ruft den Wert der constantHexBinary-Eigenschaft ab.
+     * Gets the value of the constantHexBinary property.
      * 
      * @return
      *     possible object is
@@ -306,7 +299,7 @@ public class CalSubType {
     }
 
     /**
-     * Legt den Wert der constantHexBinary-Eigenschaft fest.
+     * Sets the value of the constantHexBinary property.
      * 
      * @param value
      *     allowed object is

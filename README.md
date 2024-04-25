@@ -25,12 +25,7 @@ System.out.println(lsdl);
 Object valueSetLsdl = LsDL.parse(valueSetLsdlXML, com.lemonbeat.lsdl.Network.class)
 ```
 
-
 ## Regenerate classes using JAXB
 
-```bash
-cd lsdl_lib
-git clone git@gitlab.lemonbeat.com:common/lsdl_xsd.git
-cd lsbl_xsd/xsd
-generate.bat
-```
+Make sure you have docker installed and access to the Lemonbeat GitLab instance.
+You can then run `make xjc` to regenerate the classes.

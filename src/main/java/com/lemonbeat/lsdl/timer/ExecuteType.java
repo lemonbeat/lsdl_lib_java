@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:37 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.timer;
 
@@ -16,9 +9,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java-Klasse für executeType complex type.
+ * <p>Java class for executeType complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="executeType">
@@ -53,7 +46,7 @@ public class ExecuteType {
     protected Long actionId;
 
     /**
-     * Ruft den Wert der timerId-Eigenschaft ab.
+     * Gets the value of the timerId property.
      * 
      */
     public long getTimerId() {
@@ -61,7 +54,7 @@ public class ExecuteType {
     }
 
     /**
-     * Legt den Wert der timerId-Eigenschaft fest.
+     * Sets the value of the timerId property.
      * 
      */
     public void setTimerId(long value) {
@@ -69,7 +62,7 @@ public class ExecuteType {
     }
 
     /**
-     * Ruft den Wert der after-Eigenschaft ab.
+     * Gets the value of the after property.
      * 
      */
     public long getAfter() {
@@ -77,7 +70,7 @@ public class ExecuteType {
     }
 
     /**
-     * Legt den Wert der after-Eigenschaft fest.
+     * Sets the value of the after property.
      * 
      */
     public void setAfter(long value) {
@@ -85,7 +78,7 @@ public class ExecuteType {
     }
 
     /**
-     * Ruft den Wert der calculationId-Eigenschaft ab.
+     * Gets the value of the calculationId property.
      * 
      * @return
      *     possible object is
@@ -97,7 +90,7 @@ public class ExecuteType {
     }
 
     /**
-     * Legt den Wert der calculationId-Eigenschaft fest.
+     * Sets the value of the calculationId property.
      * 
      * @param value
      *     allowed object is
@@ -109,7 +102,7 @@ public class ExecuteType {
     }
 
     /**
-     * Ruft den Wert der actionId-Eigenschaft ab.
+     * Gets the value of the actionId property.
      * 
      * @return
      *     possible object is
@@ -121,7 +114,7 @@ public class ExecuteType {
     }
 
     /**
-     * Legt den Wert der actionId-Eigenschaft fest.
+     * Sets the value of the actionId property.
      * 
      * @param value
      *     allowed object is

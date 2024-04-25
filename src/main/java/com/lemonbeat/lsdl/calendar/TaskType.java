@@ -1,10 +1,3 @@
-//
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.8-b130911.1802 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2018.06.08 um 11:49:40 PM CEST 
-//
-
 
 package com.lemonbeat.lsdl.calendar;
 
@@ -17,9 +10,9 @@ import javax.xml.bind.annotation.XmlType;
 
 
 /**
- * <p>Java-Klasse für taskType complex type.
+ * <p>Java class for taskType complex type.
  * 
- * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
+ * <p>The following schema fragment specifies the expected content contained within this class.
  * 
  * <pre>
  * &lt;complexType name="taskType">
@@ -62,7 +55,7 @@ public class TaskType {
     protected Short weekdays;
 
     /**
-     * Ruft den Wert der taskId-Eigenschaft ab.
+     * Gets the value of the taskId property.
      * 
      */
     public long getTaskId() {
@@ -70,7 +63,7 @@ public class TaskType {
     }
 
     /**
-     * Legt den Wert der taskId-Eigenschaft fest.
+     * Sets the value of the taskId property.
      * 
      */
     public void setTaskId(long value) {
@@ -78,7 +71,7 @@ public class TaskType {
     }
 
     /**
-     * Ruft den Wert der start-Eigenschaft ab.
+     * Gets the value of the start property.
      * 
      * @return
      *     possible object is
@@ -90,7 +83,7 @@ public class TaskType {
     }
 
     /**
-     * Legt den Wert der start-Eigenschaft fest.
+     * Sets the value of the start property.
      * 
      * @param value
      *     allowed object is
@@ -102,7 +95,7 @@ public class TaskType {
     }
 
     /**
-     * Ruft den Wert der actionId-Eigenschaft ab.
+     * Gets the value of the actionId property.
      * 
      * @return
      *     possible object is
@@ -114,7 +107,7 @@ public class TaskType {
     }
 
     /**
-     * Legt den Wert der actionId-Eigenschaft fest.
+     * Sets the value of the actionId property.
      * 
      * @param value
      *     allowed object is
@@ -126,7 +119,7 @@ public class TaskType {
     }
 
     /**
-     * Ruft den Wert der end-Eigenschaft ab.
+     * Gets the value of the end property.
      * 
      * @return
      *     possible object is
@@ -138,7 +131,7 @@ public class TaskType {
     }
 
     /**
-     * Legt den Wert der end-Eigenschaft fest.
+     * Sets the value of the end property.
      * 
      * @param value
      *     allowed object is
@@ -150,7 +143,7 @@ public class TaskType {
     }
 
     /**
-     * Ruft den Wert der repeat-Eigenschaft ab.
+     * Gets the value of the repeat property.
      * 
      * @return
      *     possible object is
@@ -162,7 +155,7 @@ public class TaskType {
     }
 
     /**
-     * Legt den Wert der repeat-Eigenschaft fest.
+     * Sets the value of the repeat property.
      * 
      * @param value
      *     allowed object is
@@ -174,7 +167,7 @@ public class TaskType {
     }
 
     /**
-     * Ruft den Wert der weekdays-Eigenschaft ab.
+     * Gets the value of the weekdays property.
      * 
      * @return
      *     possible object is
@@ -186,7 +179,7 @@ public class TaskType {
     }
 
     /**
-     * Legt den Wert der weekdays-Eigenschaft fest.
+     * Sets the value of the weekdays property.
      * 
      * @param value
      *     allowed object is
